@@ -13,3 +13,5 @@ class Player(object):
                 pass
             if event.type == MOUSEBUTTONDOWN:
                 pass
+            if event.type == QUIT:
+                quit()

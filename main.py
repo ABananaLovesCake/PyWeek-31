@@ -7,9 +7,6 @@ screen = pygame.display.set_mode(
 )
 while Setting().is_running:
     Player.control()
-    for event in pygame.event.get():
-        if event.type == QUIT:
-            quit()
     pygame.display.update()
 
 
