@@ -4,7 +4,7 @@ from pygame.locals import *
 
 class Setting(object):
     def __init__(self):
-        resolution = (1280, 720)
+        resolution = (1280, 768)
         self.resolution = resolution
         is_running = True
         self.is_running = is_running
